@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://kit.fontawesome.com/431bb00c65.css" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>TP INTEGRADOR (CV)</title>
+    </head>
+
+    <body>
+        <script src="https://kit.fontawesome.com/431bb00c65.js" crossorigin="anonymous"></script>
+        <main>
+            <section>
+                <div id="contenedorFoto">
+                    <img id="fotocv" src="messi.jpg" alt="fotoCV">    
+                </div>
+
+                <div class="titulos">
+                    <h2>ACERCA DE MI</h2>
+                    <p>Licenciado en Publicidad con 6 años de experiencia en agencias de Marketing. Mi capacidad creativa y analítica me permite realizar campañas publicitarias altamente efectivas. Aspiro a crear piezas audiovisuales de calidad donde pueda demostrar todo mi potencial.</p>
+                </div>
+
+                <div class="titulos">
+                    <h2>IDIOMAS</h2>
+                    <p>Español<br><progress value="100" max="100">0%</progress></p>
+                    <p>Ingles<br><progress value="85" max="100">0%</progress></p>
+                    <p>Francés<br><progress value="50" max="100">0%</progress></p>
+                </div>
+
+                <div class="titulos">
+                    <h2>HABILIDADES</h2>
+                        <ul>
+                            <li>Comunicación</li>
+                            <li>Fotografía profesional</li>
+                            <li>Capacidad analítica</li>
+                            <li>Pensamiento crítico</li>
+                            <li>Experiencias interculturales</li>
+                            <li>Organización avanzada</li>
+                            <li>Autonomía en proyectos</li>
+                        </ul>
+                </div>     
+            </section>
+
+            <aside>
+                <div id="contenedor">    
+                    <header>
+                        <h1 id="nombre">PABLO<br>OLMEDO</h1>   
+                    </header>
+                    <div id="datoscontacto">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> Av. Qatar N°2022, Santa Fe - Argentina</p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i> +54 9 342 18122022</p>
+                        <P><i class="fa-sharp fa-solid fa-envelope"></i> pablomolmedo@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-pen-to-square"></i> <a href="#contacto">Formulario de contacto</a></p>
+                    </div>
+                </div>
+
+                <div class="titulos">
+                    <h2>EXPERIENCIA PROFESIONAL</h2>
+                    <h3>Director Creativo<br>AGENCIA IMAGEN, Barcelona  | 2021 - Actualidad</h3>
+                    <ul>
+                        <li>Crear, liderar y administrar las estrategias creativas de marketing y publicidad para las diferentes campañas.</li>
+                        <li>Colaborar con el área de marketing para desarrollar planes de venta, análisis de resultados e identificación de oportunidades.</li>
+                        <li>Estar al tanto de nuestra presencia en las redes sociales, en todos y cada uno de los canales digitales.</li>
+                        <li>Comunicación directa con medios regionales</li>
+                    </ul>
+                    <h3>Asistente de Marketing<br>JOHNSON & JOHNSON, Madrid  | 2018 - 2021</h3>
+                    <ul>
+                        <li>Participación activa en el desarrollo e implementación del Plan de Marca.</li>
+                        <li>Colaboración estratégica con partes interesadas internas y externas, como marketing, asuntos médicos, acceso, regulación, PSP, capacitación, profesionales de la salud y proveedores de empresas.</li>
+                    </ul>
+                    <h3>Asistente Creativo Junior<br>AGENCIA IMAGEN, Barcelona  | 2016 - 2018</h3>
+                    <ul>
+                        <li>Establecer, ejecutar y gobernar un lenguaje de diseño visual coherente.</li>
+                        <li>Trabajar en colaboración con el gerente del equipo de diseño creativo, los diseñadores visuales y los redactores para marca cohesiva.</li>
+                    </ul>
+                </div>
+
+                <div class="titulos">
+                    <h2>EDUCACIÓN</h2>
+                    <p><b>Máster en Marketing Digital Creativo</b><br><i>Universidad de Buenos Aires, Argentina</i>  |  2016 - 2018</p>
+                    <p><b>Licenciado en Comunicación y Publicidad</b><br><i>Universidad de Valencia, Valencia</i>  |  2010 - 2015</p>
+                </div>              
+            </aside>
+        </main>
+    </body>
+
+    <footer> 
+        <h3>FORMULARIO DE CONTACTO</h3>
+        <form name="formulario" method="" action="">
+            <div id="contacto">
+                <input id="interesado" class="datos" type="text" name="nombre" placeholder="Ingrese su Nombre y Apellido" >
+                <input id="empresa" class="datos" type="text" name="empresa" placeholder="Nombre de la Empresa interesada" >
+                <input id="telefono" class="datos" type="text" name="teléfono" placeholder="Ingrese su teléfono de contacto" >
+                <input id="correo" class="datos" type="email" name="correo" placeholder="Ingrese su correo electrónico" >
+                <input id="boton" class="datos" type="submit" value="ENVIAR FORMULARIO"> 
+            </div>
+
+            <div id="textarea">
+                <textarea id="observaciones" name="comentarios" cols="81" rows="15" placeholder="Ingrese sus comentarios" ></textarea>           
+            </div>
+        </form>
+        <p id="respuesta"></p>
+        <script src="miscript.js"></script>
+    </footer>
+
+    <div id="ir_arriba"><a href="#fotocv"><p><i>IR HACIA ARRIBA</i></p></a></div>
+
+</html>
